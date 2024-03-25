@@ -21,7 +21,7 @@
 				&kp LCTL      &kp LALT      &kp LGUI      &kp F1        &mo 2         &kp SPACE     &mo 1         &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &kp C_PP
 			>;
 
-			sensor-bindings = <&inc_dec_kp K_VOL_UP2 K_VOL_DN2>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 
 		right {
