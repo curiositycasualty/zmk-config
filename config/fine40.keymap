@@ -25,7 +25,7 @@
 &lt 1 SPACE  &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT  &kp C_PP
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(LS(C_VOLUME_UP)) LC(LS(K_VOLUME_DOWN))>;
+            sensor-bindings = <&inc_dec_kp LC(LS(C_VOLUME_UP)) LC(LS(C_VOLUME_DOWN))>;
         };
 
         right {
