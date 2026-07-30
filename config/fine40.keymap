@@ -56,7 +56,7 @@
 
         control {
             bindings = <
-&sys_reset      &bootloader  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans
+&sys_reset      &bootloader  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &soft_off
 &trans          &trans       &trans      &trans      &trans      &trans
 &trans          &kp F11      &kp F12     &kp F13     &kp F14     &kp F15
 &kp F16         &kp F17      &kp F18     &kp F19     &kp F20     &trans
