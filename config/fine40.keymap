@@ -15,20 +15,20 @@
 
         default_layer {
             bindings = <
-&kp ESC      &kp Q         &kp W         &kp E         &kp R      &kp T
-&kp Y        &kp U         &kp I         &kp O         &kp P      &kp BSPC
-&lt 3 TAB    &kp A         &kp S         &kp D         &kp F      &kp G
-&kp H        &kp J         &kp K         &kp L         &kp SEMI   &kp SQT
-&kp LSHFT    &kp Z         &kp X         &kp C         &kp V      &kp B
-&kp N        &kp M         &kp COMMA     &kp DOT       &kp FSLH   &kp RET
-&kp LCTRL    &kp LEFT_ALT  &kp LEFT_GUI  &kp BSLH      &mo 2      &kp SPACE
-&lt 1 SPACE  &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT  &kp C_PP
+&kp ESC    &kp Q         &kp W         &kp E         &kp R      &kp T
+&kp Y      &kp U         &kp I         &kp O         &kp P      &kp BSPC
+&lt 3 TAB  &kp A         &kp S         &kp D         &kp F      &kp G
+&kp H      &kp J         &kp K         &kp L         &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z         &kp X         &kp C         &kp V      &kp B
+&kp N      &kp M         &kp COMMA     &kp DOT       &kp FSLH   &kp RET
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp BSLH      &mo 1      &kp SPACE
+&mo 2      &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT  &kp C_PP
             >;
 
             sensor-bindings = <&inc_dec_kp LA(LS(C_VOLUME_UP)) LS(LA(C_VOLUME_DOWN))>;
         };
 
-        right {
+        left {
             bindings = <
 &kp LS(GRAVE)  &kp LS(N1)  &kp LS(N2)     &kp LS(N3)    &kp LS(N4)  &kp LS(N5)
 &kp LS(N6)     &kp LS(N7)  &kp LS(N8)     &kp LS(N9)    &kp LS(N0)  &kp DEL
@@ -41,7 +41,7 @@
             >;
         };
 
-        left {
+        right {
             bindings = <
 &kp GRAVE  &kp N1     &kp N2     &kp N3     &kp N4    &kp N5
 &kp N6     &kp N7     &kp N8     &kp N9     &kp N0    &kp BSPC
